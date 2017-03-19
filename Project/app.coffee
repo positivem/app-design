@@ -4,8 +4,8 @@ bg = new BackgroundLayer
 
 # Create a layer
 layerA = new Layer
-    x: 0
-    y: 0
+    x: 50
+    y: 50
     width: 100
     height: 100
     backgroundColor: "#fff"
