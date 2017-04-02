@@ -5,7 +5,12 @@ Positive Movement!
 Positive Movements is mobile app, which aims to improve concentration using neurofeedback technology via Muse.
 
 ----------
-
+(
+Work in progress
+c. Framework used to develop the application. 
+d. Target platform(s) that the prototype will run on. 
+e. Guide to installing/running the application (this can be filled out later as your progress with developing your prototype). 
+)
 
 Documents
 -------------
