@@ -25,6 +25,25 @@ First application will be developed for the OiS
 ----------------
 This section will be added later as the app development progresses
 
+## 6. Milestones
+-----------------
+
+**30.04.2017**
+
+Github repository is set up and synchronised. All the necessary files are uploaded. 
+
+**13.04**
+
+The tasks are assigned and the coding has started in Framer and objective C.
+
+**27.04**
+
+The Framer UI & Animation is 50% ready and the App is 50% ready.
+
+**11.05**
+
+The UI & Animation is ready and the App is ready.
+
 
 ## 6. Documents
 -------------
