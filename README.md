@@ -1,16 +1,29 @@
 Positive Movement!
 ===================
 
-
+Brief Overview
+-----------------
 Positive Movements is mobile app, which aims to improve concentration using neurofeedback technology via Muse.
 
-----------
-(
-Work in progress
-c. Framework used to develop the application. 
-d. Target platform(s) that the prototype will run on. 
-e. Guide to installing/running the application (this can be filled out later as your progress with developing your prototype). 
-)
+Collaborators
+---------------
+Mert- developing the app in Objective C
+Yulia - developing UI and Animation in Framer
+Emrah - developing UI and Animation in Framer
+
+Frameworks
+-----------
+Native Application for OiS will be developed in objective C
+The Animation and UI will be developed in Framer
+
+Target Platform
+----------------
+First application will be developed for the OiS
+
+Guide for Installing/Running the Application
+----------------
+This section will be added later as the app development progresses
+
 
 Documents
 -------------
