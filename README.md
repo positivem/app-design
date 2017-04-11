@@ -1,4 +1,5 @@
-Positive Movement!
+# Positive Movement! ![alt tag](https://github.com/positivem/app-design/blob/master/Project/images/Logo_3cm.png)
+
 ===================
 
 ## 1. Brief Overview
