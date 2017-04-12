@@ -1,20 +1,26 @@
 var layerA;
 
 layerA = new Layer({
-  x: Align.right,
-  y: Align.center
+  x: 0,
+  y: 0,
+  width: 750,
+  hight: 1334
 });
 
-layerA.image = "images/Start_2.png";
+layerA.image = "images/Logo_3cm.png";
 
 layerA.states = {
   stateA: {
     x: Align.right,
-    y: Align.bottom
+    y: Align.bottom,
+    width: 750,
+    hight: 1334
   },
   stateB: {
-    x: Align.left,
-    y: Align.top
+    x: Align.center,
+    y: Align.top,
+    width: 750,
+    hight: 1334
   }
 };
 
