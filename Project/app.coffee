@@ -12,11 +12,12 @@ layerA.states =
         y: Align.bottom
         width:250
         hight:250
+        rotation:180
     stateB:
         x: Align.center
         y: Align.top
-        width:350
-        hight:350
-
+        width:250
+        hight:250
+        rotation:180
 
 layerA.onTap -> layerA.stateCycle()
