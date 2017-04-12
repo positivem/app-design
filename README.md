@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 Positive Movement!
 ![alt tag](https://github.com/positivem/app-design/blob/master/Project/images/Logo512px.png)
+=======
+# Positive Movement! ![alt tag](https://github.com/positivem/app-design/blob/master/Project/images/Logo_3cm.png)
+
+>>>>>>> refs/remotes/origin/master
 ===================
 
 ## 1. Brief Overview
@@ -9,7 +14,12 @@ Positive Movements is a mobile app, which aims at improving concentration level 
 ## 2. Collaborators
 ---------------
 * Mert- developing the app in Objective C
-* Yulia - developing UI and Animation in Framer
+* Yulia - developing UI and Animation in Framer:
+ 1. Animate Logo on the Landing screen
+ 2. Animate Circular Bars in Progress Report Screen
+ 3. Animate Arrows in notification pop-ups (Add Check-box)
+ 4. Animate Buttons (Start, Progress)
+ 5. Add multi-state buttons
 * Emrah - developing UI and Animation in Framer
 
 ## 3. Frameworks
@@ -24,6 +34,25 @@ First application will be developed for the OiS
 ## 5. Guide for Installing/Running the Application
 ----------------
 This section will be added later as the app development progresses
+
+## 6. Milestones
+-----------------
+
+**30.04.2017**
+
+Github repository is set up and synchronised. All the necessary files are uploaded. 
+
+**13.04**
+
+The tasks are assigned and the coding has started in Framer and objective C.
+
+**27.04**
+
+The Framer UI & Animation is 50% ready and the App is 50% ready.
+
+**11.05**
+
+The UI & Animation is ready and the App is ready.
 
 
 ## 6. Documents
