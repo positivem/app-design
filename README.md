@@ -9,7 +9,12 @@ Positive Movements is a mobile app, which aims at improving concentration level 
 ## 2. Collaborators
 ---------------
 * Mert- developing the app in Objective C
-* Yulia - developing UI and Animation in Framer
+* Yulia - developing UI and Animation in Framer:
+ 1. Animate Logo on the Landing screen
+ 2. Animate Circular Bars in Progress Report Screen
+ 3. Animate Arrows in notification pop-ups (Add Check-box)
+ 4. Animate Buttons (Start, Progress)
+ 5. Add multi-state buttons
 * Emrah - developing UI and Animation in Framer
 
 ## 3. Frameworks
