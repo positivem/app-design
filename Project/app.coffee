@@ -1,23 +1,36 @@
-# Create a layer an position it in the center
+
 layerA = new Layer
+#  x: 0
+#  y: 0
+    width:640
+    height:960
+    backgroundColor = "#28affa"
+
+layerA.image = "images/1-Login.png"
+#layerA.centerX()
+print Canvas.frame
+print Canvas.size
+layerB = new Layer
+#parent:layerA
     x: 0
     y: 0
     width:200
-    hight:200
-layerA.image = "images/Logo_3cm.png"
+    height:200
+layerB.image ="images/Logo_3cm.png"
+
 # Create a state in the bottom right corner
-layerA.states =
+layerB.states =
     stateA:
-        x: Align.right
-        y: Align.bottom
-        width:250
-        hight:250
+        x: 0
+        y: 0
+        width:200
+        height:200
         rotation:180
     stateB:
-        x: Align.center
-        y: Align.top
-        width:250
-        hight:250
+        x: 0
+        y: 0
+        width:200
+        height:200
         rotation:180
 
-layerA.onTap -> layerA.stateCycle()
+layerB.onTap -> layerB.stateCycle()
