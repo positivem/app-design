@@ -1,15 +1,16 @@
 
 layerA = new Layer
-#  x: 0
-#  y: 0
-    width:640
-    height:960
+    x: -186
+    y: -330
+    width:750
+    height:1334
     backgroundColor = "#28affa"
-
+#print layerA;
+layerA.scale = 0.5
 layerA.image = "images/1-Login.png"
 #layerA.centerX()
-print Canvas.frame
-print Canvas.size
+#print Canvas.frame
+#print Canvas.size
 layerB = new Layer
 #parent:layerA
     x: 0
