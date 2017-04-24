@@ -7,14 +7,13 @@ layerA = new Layer
     backgroundColor = "#28affa"
 #print layerA;
 layerA.scale = 0.5
-layerA.image = "images/1-Login.png"
+layerA.image = "images/Nobutton-Login.png"
 #layerA.centerX()
 #print Canvas.frame
 #print Canvas.size
 layerB = new Layer
-#parent:layerA
-    x: 0
-    y: 0
+    x: 108
+    y: 20
     width:200
     height:200
 layerB.image ="images/Logo_3cm.png"
@@ -22,16 +21,34 @@ layerB.image ="images/Logo_3cm.png"
 # Create a state in the bottom right corner
 layerB.states =
     stateA:
-        x: 0
-        y: 0
+        x: 80
+        y: 20
         width:200
         height:200
-        rotation:180
+        rotation:360
     stateB:
-        x: 0
-        y: 0
+        x: 80
+        y: 20
         width:200
         height:200
-        rotation:180
+        rotation:360
 
 layerB.onTap -> layerB.stateCycle()
+layerButton = new Layer
+    x: 65
+    y: 540
+    width:250
+    height:55
+    opacity:0.5
+layerButton.borderRadius = 4
+layerButton.image ="images/sign in.png"
+#layerButton.opacity = true
+layerButton.states =
+    stateA:
+          x: 65
+          y: 540
+          width:250
+          height:55
+          opacity:1
+    #stateB:
+layerButton.onTap -> layerButton.stateCycle()
