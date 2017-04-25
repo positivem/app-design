@@ -1,5 +1,10 @@
+<<<<<<< HEAD
+Positive Movement!
+![alt tag](https://github.com/positivem/app-design/blob/master/Project/images/Logo512px.png)
+=======
 # Positive Movement! ![alt tag](https://github.com/positivem/app-design/blob/master/Project/images/Logo_3cm.png)
 
+>>>>>>> refs/remotes/origin/master
 ===================
 
 ## 1. Brief Overview
