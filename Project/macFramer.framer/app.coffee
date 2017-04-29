@@ -1,24 +1,36 @@
 # Import file "Filtered-do"
-sketch2 = Framer.Importer.load("imported/Filtered-do@1x")
+sketch = Framer.Importer.load("imported/Filtered-do@1x")
+# Import file "Filtered-do"
 
-sketch2.$1_Login
-sketch2.$2_Sign_Up
-sketch2.$10_Profile
-sketch2.$6_Overview
-sketch2.details_session
+#Create flow component
+flow = new FlowComponent
+flow.showOverlayRight(sketch.$1_Login)
 
-sketch2.$1_Login.draggable.enabled = true
-sketch2.$2_Sign_Up.draggable.enabled = true
-sketch2.$10_Profile.draggable.enabled = true
-sketch2.$6_Overview.draggable.enabled = true
-sketch2.details_session.draggable.enabled = true
+#Create Event on Tap for Login page
+sketch.sign_in.onTap (event, layer) ->
+	flow.showOverlayRight(sketch.$10_Profile)
 
-sketch2.$1_Login.draggable.vertical = false
-sketch2.$2_Sign_Up.draggable.vertical = false
-sketch2.$10_Profile.draggable.vertical = false
-#sketch2.$6_Overview.draggable.vertical = false sketch2.details_session.draggable.vertical = false
+#Create Event on Tap for Profile Progress page
+sketch.create.onTap (event, layer) ->
+    flow.showOverlayRight(sketch.$6_Overview)
 
-sketch2.Group4.states =
+#Create Event on Tap for Profile Start page
+sketch.create_copy.onTap (event, layer) ->
+    flow.showOverlayRight(sketch.details_session)
+
+#Create Event on Tap for Menu in Detailed Session report page
+sketch.menu1.onTap (event, layer) ->
+    flow.showOverlayRight(sketch.$6_Overview)
+    
+    
+#Create Event on Tap for Overview menu button
+sketch.menu.onTap (event, layer) ->
+	flow.showOverlayLeft(sketch.$1_Login)
+	
+
+
+# Create states for Logo
+sketch.Group.states =
     stateA:
         x: 275
         y: 120
@@ -32,15 +44,15 @@ sketch2.Group4.states =
         height:270
         rotation:360
 
-sketch2.Group4.onTap (event, layer) -> sketch2.Group4.stateCycle()
-
+#Create Event for Logo
+sketch.Group.onTap  -> sketch.Group.stateCycle()
 
 #Animate with a spring curve 
-
-sketch2.sign_in.states =
+sketch.sign_in.states =
         stateA:
           opacity:0.5
-sketch2.sign_in.onTap -> sketch2.sign_in.stateCycle()
+#Create Event for signin
+sketch.sign_in.onTap -> sketch.sign_in.stateCycle()
 
 
 
