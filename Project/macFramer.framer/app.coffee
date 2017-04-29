@@ -1,54 +1,57 @@
+# Import file "Filtered-do"
+sketch2 = Framer.Importer.load("imported/Filtered-do@1x")
 
-layerA = new Layer
-    x: -185
-    y: -330
-    width:750
-    height:1334
-    backgroundColor = "#28affa"
-#print layerA;
-layerA.scale = 0.5
-layerA.image = "images/Nobutton-Login.png"
-#layerA.centerX()
-#print Canvas.frame
-#print Canvas.size
-layerB = new Layer
-    x: 108
-    y: 20
-    width:200
-    height:200
-layerB.image ="images/Logo_3cm.png"
+sketch2.$1_Login
+sketch2.$2_Sign_Up
+sketch2.$10_Profile
+sketch2.$6_Overview
+sketch2.details_session
 
-# Create a state in the bottom right corner
-layerB.states =
+sketch2.$1_Login.draggable.enabled = true
+sketch2.$2_Sign_Up.draggable.enabled = true
+sketch2.$10_Profile.draggable.enabled = true
+sketch2.$6_Overview.draggable.enabled = true
+sketch2.details_session.draggable.enabled = true
+
+sketch2.$1_Login.draggable.vertical = false
+sketch2.$2_Sign_Up.draggable.vertical = false
+sketch2.$10_Profile.draggable.vertical = false
+#sketch2.$6_Overview.draggable.vertical = false sketch2.details_session.draggable.vertical = false
+
+sketch2.Group4.states =
     stateA:
-        x: 80
-        y: 20
+        x: 275
+        y: 120
         width:200
-        height:200
+        height:270
         rotation:360
     stateB:
-        x: 80
-        y: 20
+        x: 275
+        y: 120
         width:200
-        height:200
+        height:270
         rotation:360
 
-layerB.onTap -> layerB.stateCycle()
-layerButton = new Layer
-    x: 65
-    y: 540
-    width:250
-    height:55
-    opacity:0.5
-layerButton.borderRadius = 4
-layerButton.image ="images/sign in.png"
-#layerButton.opacity = true
-layerButton.states =
-    stateA:
-          x: 65
-          y: 540
-          width:250
-          height:55
-          opacity:1
-    #stateB:
-layerButton.onTap -> layerButton.stateCycle()
+sketch2.Group4.onTap (event, layer) -> sketch2.Group4.stateCycle()
+
+
+#Animate with a spring curve 
+
+sketch2.sign_in.states =
+        stateA:
+          opacity:0.5
+sketch2.sign_in.onTap -> sketch2.sign_in.stateCycle()
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+

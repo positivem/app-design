@@ -1,4 +1,49 @@
+# Import file "Filtered-do"
+sketch1 = Framer.Importer.load("imported/Filtered-do@1x")
 
+sketch1.Group4.states =
+    stateA:
+        x: 275
+        y: 153
+        width:200
+        height:270
+        rotation:360
+    stateB:
+        x: 275
+        y: 146
+        width:200
+        height:274
+        rotation:360
+
+sketch1.Group4.onTap (event, layer) -> sketch1.Group4.stateCycle()
+
+
+### Animate with a spring curve 
+sketch1.sign_in..animate
+    scale: 0.75
+    options:
+        curve: Spring(damping: 0.5)
+        time: 0.5
+
+
+sketch1.sign_in.states =
+   stateFadeout:            # name of the state
+      opacity: 0
+      scale: 1.5
+    stateFadein:
+       oopacity: 1
+      scale: 1          
+sketch1.sign_in.onTap -> sketch1.sign_in.stateCycle()->
+
+#sketch1.sign_in.on Events.TouchEnd, (event, layer)->
+#sketch1.sign_in.opacity = 1
+
+
+
+
+
+
+###
 layerA = new Layer
     x: -185
     y: -330
