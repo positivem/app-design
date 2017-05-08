@@ -1,5 +1,20 @@
+
 # Import file "Filtered-yes"
 sketch = Framer.Importer.load("imported/Filtered-yes@1x")
+
+# create canvas
+Circle = new Layer
+	width: 400,
+	height: 400,
+	backgroundColor: "blue"
+	opacity: 0.5
+	superLayer: sketch.details_session
+	x: 187
+	y: 284
+
+# create SVG element inside canvas and hook snap into it
+Circle.html = "<svg id='svg' style='width:#{Circle.width}px;height:#{Circle.height}px;ignore-events:all;'></svg>"
+snap = Snap(canvas.querySelector("#svg"))
 
 
 #Create flow component
@@ -63,8 +78,7 @@ sketch.menu3.onTap (event, layer) ->
 #Create Event on Tap for Drop Down to Main
 sketch.next4.onTap (event, layer) ->
     flow.showOverlayLeft(sketch.$10_Profile)
-
-
+    
 
 
 # Create states for Logo
@@ -89,8 +103,15 @@ sketch.Group.onTap  -> sketch.Group.stateCycle()
 sketch.sign_in.states =
         stateA:
           opacity:0.5
-#Create Event for signin
+        stateB:
+          opacity:1
+
+        #Create Event for signin
 sketch.sign_in.onTap -> sketch.sign_in.stateCycle()
+
+       
+       
+
 
 
 
