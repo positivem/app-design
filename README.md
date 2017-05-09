@@ -10,11 +10,11 @@ Positive Movements is a mobile app, which aims at improving concentration level 
 ---------------
 * Mert- developing the app in Objective C
 * Yulia - developing UI and Animation in Framer:
- 1. Animate Logo on the Landing screen
- 2. Animate Circular Bars in Progress Report Screen
- 3. Animate Arrows in notification pop-ups (Add Check-box)
- 4. Animate Buttons (Start, Progress)
- 5. Add multi-state buttons
+ 1. Animated Logo on the Landing screen
+ 2. Animated Circular Bar in Progress Report Screen
+ 3. Added interactions (states and events, transitions), linked pages together
+ 4. Added Flow components for additional interactive transitions
+ 
 * Emrah - developing UI and Animation in Framer
 
 ## 3. Frameworks
@@ -47,7 +47,7 @@ The Framer UI & Animation is 50% ready and the App is 50% ready.
 
 **11.05**
 
-The UI & Animation is ready and the App is ready.
+The UI & Animation is ready and some parts of native App is ready.
 
 
 ## 6. Documents
@@ -63,6 +63,10 @@ In our project development we're using some online tools to keep our progress cl
 * [Blog](http://medium.com/positive-movement)
 
 * [Prototype](https://pr.to/3ASLD1/)
+
+* [Interactive Prototype in Framer by Yulia](https://framer.cloud/CARFv/1)
+
+* [Circular Bar Animation by Yulia](https://framer.cloud/hsiDE)
 
 
 ## 7. <i class="icon-pencil"></i>Design
