@@ -9896,33 +9896,6 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 				"children": []
 			},
 			{
-				"objectId": "EB22A1E3-D9F9-4018-940A-C63B7CA2A14D",
-				"kind": "group",
-				"name": "days",
-				"originalName": "days",
-				"maskFrame": null,
-				"layerFrame": {
-					"x": 66,
-					"y": 720,
-					"width": 1161,
-					"height": 17
-				},
-				"visible": true,
-				"metadata": {
-					"opacity": 1
-				},
-				"image": {
-					"path": "images/Layer-days-ruiymkex.png",
-					"frame": {
-						"x": 66,
-						"y": 720,
-						"width": 1161,
-						"height": 17
-					}
-				},
-				"children": []
-			},
-			{
 				"objectId": "E1F45E7D-D6F7-4942-83C8-612E449B0D27",
 				"kind": "group",
 				"name": "graph2",
@@ -9961,10 +9934,10 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 				"originalName": "completed",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 187,
-					"y": 289,
-					"width": 379,
-					"height": 446
+					"x": 263,
+					"y": 559,
+					"width": 235,
+					"height": 304
 				},
 				"visible": true,
 				"metadata": {
@@ -9973,40 +9946,13 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-completed-rjk5rdhd.png",
 					"frame": {
-						"x": 187,
-						"y": 289,
-						"width": 379,
-						"height": 446
+						"x": 263,
+						"y": 559,
+						"width": 235,
+						"height": 304
 					}
 				},
 				"children": [
-					{
-						"objectId": "496AE12E-5AC1-43F5-9E3D-0EFD0C425E2B",
-						"kind": "group",
-						"name": "group26",
-						"originalName": "group",
-						"maskFrame": null,
-						"layerFrame": {
-							"x": 187,
-							"y": 289,
-							"width": 379,
-							"height": 382
-						},
-						"visible": true,
-						"metadata": {
-							"opacity": 1
-						},
-						"image": {
-							"path": "images/Layer-group-ndk2quux.png",
-							"frame": {
-								"x": 187,
-								"y": 289,
-								"width": 379,
-								"height": 382
-							}
-						},
-						"children": []
-					},
 					{
 						"objectId": "45609142-20A8-4A7B-BBBA-0164E532F627",
 						"kind": "text",
@@ -10014,8 +9960,8 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 						"originalName": "Type something + 16",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 265,
-							"y": 431,
+							"x": 263,
+							"y": 559,
 							"width": 235,
 							"height": 101
 						},
@@ -10035,8 +9981,8 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 						"image": {
 							"path": "images/Layer-Type_something_16-ndu2mdkx.png",
 							"frame": {
-								"x": 265,
-								"y": 431,
+								"x": 263,
+								"y": 559,
 								"width": 235,
 								"height": 101
 							}
@@ -10100,7 +10046,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 							{
 								"objectId": "783068C8-1C78-4292-9411-B34AEC08FCEC",
 								"kind": "group",
-								"name": "group27",
+								"name": "group26",
 								"originalName": "group",
 								"maskFrame": null,
 								"layerFrame": {
@@ -10210,7 +10156,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 							{
 								"objectId": "36B878C6-D17B-4EB5-8986-3BE1BF8CC98C",
 								"kind": "group",
-								"name": "group28",
+								"name": "group27",
 								"originalName": "group",
 								"maskFrame": null,
 								"layerFrame": {
@@ -10267,7 +10213,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "C87E6242-7C23-41C9-B664-DB475E8891AF",
 						"kind": "group",
-						"name": "group29",
+						"name": "group28",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10293,7 +10239,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 							{
 								"objectId": "7EAAC919-458A-45B0-9C53-F652BE8A71C1",
 								"kind": "group",
-								"name": "group30",
+								"name": "group29",
 								"originalName": "group",
 								"maskFrame": null,
 								"layerFrame": {
@@ -10350,7 +10296,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "D7BFC7D0-E59F-43BD-A6C5-C88D3C179C15",
 						"kind": "group",
-						"name": "group31",
+						"name": "group30",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10459,7 +10405,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "C91FE261-BE68-4EFA-836E-10E93C12673B",
 						"kind": "group",
-						"name": "group32",
+						"name": "group31",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10541,7 +10487,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "F9C62F7B-CE2F-41CF-A9E9-BBD3BCF3387C",
 						"kind": "group",
-						"name": "group33",
+						"name": "group32",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10623,7 +10569,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "007CBF2B-46F2-452E-BA6D-5A5FD1E328A1",
 						"kind": "group",
-						"name": "group34",
+						"name": "group33",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10696,7 +10642,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "03E173AD-0A41-4401-BF11-B82EF1DB344A",
 						"kind": "group",
-						"name": "group35",
+						"name": "group34",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {
@@ -10769,7 +10715,7 @@ window.__imported__["Filtered-yes@1x/layers.json.js"] = [
 					{
 						"objectId": "75B62873-7A49-4BD0-A808-6FC0A0F2C4F4",
 						"kind": "group",
-						"name": "group36",
+						"name": "group35",
 						"originalName": "group",
 						"maskFrame": null,
 						"layerFrame": {

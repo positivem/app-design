@@ -1,21 +1,5 @@
-
 # Import file "Filtered-yes"
 sketch = Framer.Importer.load("imported/Filtered-yes@1x")
-
-# create canvas
-Circle = new Layer
-	width: 400,
-	height: 400,
-	backgroundColor: "blue"
-	opacity: 0.5
-	superLayer: sketch.details_session
-	x: 187
-	y: 284
-
-# create SVG element inside canvas and hook snap into it
-Circle.html = "<svg id='svg' style='width:#{Circle.width}px;height:#{Circle.height}px;ignore-events:all;'></svg>"
-snap = Snap(canvas.querySelector("#svg"))
-
 
 #Create flow component
 flow = new FlowComponent
@@ -106,11 +90,63 @@ sketch.sign_in.states =
         stateB:
           opacity:1
 
-        #Create Event for signin
+#Create Event for signin
 sketch.sign_in.onTap -> sketch.sign_in.stateCycle()
 
-       
-       
+
+# Draw circle
+radius  = 200
+stroke  = 15
+viewBox = (radius * 2) + stroke
+
+circle = new Layer
+  superLayer:sketch.details_session
+  width:  viewBox
+  height: viewBox
+  backgroundColor: ''
+  rotation: -90
+  y: 302
+  x: 187
+
+ #borderRadius: 16
+
+circle.center() 
+circle.pathLength = 2 * Math.PI * radius
+
+
+circle.html = """
+  <svg viewBox='-#{stroke/2} -#{stroke/2} #{viewBox} #{viewBox}'>
+    <circle fill='none' stroke='yellow' stroke-linecap='round'
+      stroke-width      = '#{stroke}'
+      stroke-dasharray  = '#{circle.pathLength}'
+      stroke-dashoffset = '#{circle.pathLength}'
+      cx = '#{radius}'
+      cy = '#{radius}'
+      r  = '#{radius}'>
+  </svg>"""
+# Create proxy
+proxy = new Layer visible: false, x: .1
+
+proxy.on 'change:x', ->
+  offset = Utils.modulate(@.x, [0, 100], [circle.pathLength, 0])
+  circle.path.setAttribute 'stroke-dashoffset', offset
+ 
+# Create animation
+fill = new Animation
+    layer: proxy
+    properties: x: 100
+    curve: 'spring(50,14,0)'
+
+empty = fill.reverse()
+
+fill.on(Events.AnimationEnd, empty.start)
+empty.on(Events.AnimationEnd, fill.start)
+
+
+# Run animation
+Utils.domComplete ->
+  circle.path = document.querySelector('svg circle')
+  fill.start()
 
 
 
