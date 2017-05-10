@@ -44,15 +44,15 @@ sketch.close.onTap (event, layer) ->
     flow.showOverlayRight(sketch.$10_Profile)
 
 #Create Event on Tap for Sync to Game
-sketch.group31.onTap (event, layer) ->
+sketch.group30.onTap (event, layer) ->
     flow.showOverlayRight(sketch.ALERT_sync_end)
     
 #Create Event on Tap for Sync to Game Over
-sketch.group33.onTap (event, layer) ->
+sketch.group32.onTap (event, layer) ->
     flow.showOverlayRight(sketch.ALERT_game_over)
     
 #Create Event on Tap for Sync to Game Over
-sketch.group34.onTap (event, layer) ->
+sketch.group33.onTap (event, layer) ->
     flow.showOverlayRight(sketch.details_session)
 
 #Create Event on Tap for Sync to Game Over
@@ -105,8 +105,9 @@ circle = new Layer
   height: viewBox
   backgroundColor: ''
   rotation: -90
-  y: 302
-  x: 187
+  y: 460
+  x: 168
+  borderRadius: 0
 
  #borderRadius: 16
 
