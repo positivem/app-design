@@ -21,8 +21,11 @@ Positive Movements is a mobile app, which aims at improving concentration level 
  4. Added Flow components for additional interactive transitions
  
 * Emrah - developing UI and Animation in Javascript and bootstrap
-1. Profile page created.
-2. Graphs added 
+1. Bootstrap and angular registered to the project (but angular had been used for this part)
+2. A profile page added
+3. An avatar added (profile picture)
+4. Buttons added but not directed yet.
+5. Some css codded added (Grapsh couldn't be aligned yet)
 
 ## 3. Frameworks
 -----------
