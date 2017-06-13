@@ -20,7 +20,9 @@ Positive Movements is a mobile app, which aims at improving concentration level 
  3. Added interactions (states and events, transitions), linked pages together
  4. Added Flow components for additional interactive transitions
  
-* Emrah - developing UI and Animation in Framer
+* Emrah - developing UI and Animation in Javascript and bootstrap
+1. Profile page created.
+2. Graphs added 
 
 ## 3. Frameworks
 -----------
