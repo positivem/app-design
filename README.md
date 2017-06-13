@@ -26,6 +26,7 @@ Positive Movements is a mobile app, which aims at improving concentration level 
 3. An avatar added (profile picture)
 4. Buttons added but not directed yet.
 5. Some css codes added (Grapsh couldn't be aligned yet)
+6. A js library added to create circular graphs
 
 ## 3. Frameworks
 -----------
