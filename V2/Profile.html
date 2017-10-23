@@ -1,0 +1,162 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Profile</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+    <link rel="stylesheet" href="vendor/css/profile.css">
+</head>
+<body>
+    <div id='settings' ontouchstart>
+        <input checked class='nav' name='nav' type='radio'>
+        <span class='nav'>Profile</span>
+        <input class='nav' name='nav' type='radio'>
+        <span class='nav'>Account</span>
+        <input class='nav' name='nav' onclick="javascript:window.location.href = 'Index.html'" type='radio'>
+        <span class='nav'>Return Home</span>
+        <main class='content'>
+            <section id='profile'>
+                <form>
+                    <ul>
+                        <li class='large padding avatar'>
+                            <span style="background-image: url('/vendor/img/avatar.png');"></span>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text' value='Emrah Gazi Candan'>
+                                    <label>Name</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text'>
+                                    <label>Location</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text'>
+                                    <label>Title</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text'>
+                                    <label>Website</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='large'>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text'>
+                                    <label>About</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='large padding'>
+                            <fieldset class='material-button center'>
+                                <div>
+                                    <input class='save' onclick="SaveProfile()" type='submit' value='Save'>
+                                </div>
+                            </fieldset>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+            <section id='account'>
+                <form>
+                    <ul>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text' value='email@domain.com'>
+                                    <label>Email</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='text'>
+                                    <label>Username</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='password'>
+                                    <label>Password</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li>
+                            <fieldset class='material'>
+                                <div>
+                                    <input type='password'>
+                                    <label>Confirm Password</label>
+                                    <hr>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='padding'>
+                            <fieldset class='material-button'>
+                                <div>
+                                    <button class='connect tw'>
+                                        <span>Link Twitter Account</span>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='padding'>
+                            <fieldset class='material-button'>
+                                <div>
+                                    <button class='connect fb'>
+                                        <span>Link Facebook Account</span>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='padding'>
+                            <fieldset class='material-button'>
+                                <div>
+                                    <button class='connect li'>
+                                        <span>Link LinkedIn Account</span>
+                                    </button>
+                                </div>
+                            </fieldset>
+                        </li>
+                        <li class='large padding'>
+                            <fieldset class='material-button center'>
+                                <div>
+                                    <input class='save' onclick="SaveProfile()" type='submit' value='Save'>
+                                </div>
+                            </fieldset>
+                        </li>
+                    </ul>
+                </form>
+            </section>
+      
+        </main> 
+    </div>
+    <script src="/vendor/js/profile.js"></script>
+</body>
+</html>

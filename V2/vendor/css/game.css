@@ -1,0 +1,95 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 62.5%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        font-size: 50%;
+    }
+}
+
+input, button {
+    outline: none;
+    border: none;
+}
+
+.cont {
+    position: relative;
+    height: 100%;
+    /*background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");*/
+    /*background-size: cover;*/
+    overflow: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #21fffc 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #1d9598 0%, #53e3a6 100%);
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-family: Arial;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 18px;
+    color: #666;
+}
+
+#container {
+    background: #eee;
+    border: 1px solid #ddd;
+    width: 460px;
+    height: 370px;
+    margin: auto;
+}
+
+.tile_box {
+    display: block;
+    float: left;
+    width: 80px;
+    height: 80px;
+    background: #ddd;
+    margin-left: 10px;
+    margin-top: 10px;
+    text-decoration: none;
+    color: #333;
+    font-family: Arial;
+    text-align: center;
+    line-height: 80px;
+    font-size: 32px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+    .tile_box:hover {
+        opacity: 1;
+    }
+
+.removed {
+    background: #eee !important;
+    cursor: default !important;
+}
+.ExitButtonContent{
+    margin:20px;
+}

@@ -1,0 +1,66 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-size: 62.5%;
+    height: 100%;
+    overflow: hidden;
+}
+
+@media (max-width: 768px) {
+    html, body {
+        font-size: 50%;
+    }
+}
+
+input, button {
+    outline: none;
+    border: none;
+}
+
+.cont {
+    position: relative;
+    height: 100%;
+    /*background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/slider-2.jpg");*/
+    /*background-size: cover;*/
+    overflow: auto;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    background: #50a3a2;
+    background: -webkit-linear-gradient(top left, #21fffc 0%, #53e3a6 100%);
+    background: linear-gradient(to bottom right, #1d9598 0%, #53e3a6 100%);
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+ 
+
+.item-cat{
+    padding:15px
+}
+.connecitonIcon {
+    width: 100px !important;
+    display: inline-block !important;
+}
+.owl-dots{
+    display:none !important
+}
+.displayNone{
+    display:none;
+}
+
+.processContent {
+    margin: 0;
+    left: 0;
+    right: 0;
+    height: 0;
+    bottom: 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.owl-item h2 {
+    color:white;
+}

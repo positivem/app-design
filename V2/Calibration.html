@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Main Page</title>
+    <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css'>
+    <link rel="stylesheet" href="vendor/css/calibration.css">
+</head>
+<body>
+    <div class="cont">
+
+        <ul class="owl-carousel owl-theme processContent">
+            <li class="owl-item step1">
+                <div class="item-cat">
+                    <div class="text-center">
+                        <img class="connecitonIcon" src="/vendor/img/connected-icon.png" />
+                        <div style="margin:10px">
+                            <h2>
+                                Please connect your device to your phone and switch your device on.<br /> Then click the "Next Step" button below.
+                            </h2>
+                        </div>
+                        <div  style="margin:20px">
+                            <button class="btn btn-default" style="margin-right:15px" type="button" onclick="javascript:window.location.href = 'Index.html'">Return Home</button>
+                            <button class="btn btn-success" type="button" onclick="GotoNextStep(2)">Next Step</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="owl-item step2 displayNone">
+                <div class="item-cat">
+                    <div class="text-center">
+                        <img class="connecitonIcon" src="/vendor/img/play-button.png" />
+                        <div style="margin:10px">
+                            <h2>
+                              Please click the "Start Calibration" button below for calibration.
+                            </h2>
+                        </div>
+                        <div  style="margin:20px">
+                            <button class="btn btn-default" style="margin-right:15px" type="button" onclick="javascript:window.location.href = 'Index.html'">Return Home</button>
+                            <button class="btn btn-success" type="button" onclick="GotoNextStep(3)">Start Calibration</button>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="owl-item step3 displayNone">
+                <div class="item-cat">
+                    <div class="text-center">
+                        <img class="connecitonIcon" src="/vendor/img/loader.gif" />
+                        <div style="margin:10px">
+                            <h2>
+                                Please wait until the calibration process is completed.
+                            </h2>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="owl-item step4 displayNone">
+                <div class="item-cat">
+                    <div class="text-center">
+                        <img class="connecitonIcon" src="/vendor/img/success.png" />
+                        <div style="margin:10px">
+                            <h2>
+                                Calibration has been complated.
+                            </h2>
+                        </div>
+                        <div style="margin:20px">
+                            <a href="/Game.html" class="btn btn-success">Start Game</a>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js'></script>
+    <script src="/vendor/js/calibration.js"></script>
+</body>
+</html>
