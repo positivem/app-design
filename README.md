@@ -28,6 +28,9 @@ Positive Movements is a mobile app, which aims at improving concentration level 
 5. Some css codes added (Grapsh couldn't be aligned yet)
 6. A js library added to create circular graphs
 
+**7** Emrah created a new branch.
+**8** All screens and functionality has been re-designed.
+
 ## 3. Frameworks
 -----------
 * Native Application for OiS will be developed in objective C
@@ -59,6 +62,9 @@ The Framer UI & Animation is 50% ready and the App is 50% ready.
 **11.05**
 
 The UI & Animation is ready and some parts of native App is ready.
+
+**23.10**
+A new version is ready to launch.
 
 
 ## 6. Documents
